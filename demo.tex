@@ -1,0 +1,70 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{helvet}
+\usepackage{titlesec}
+
+\fancyhead{\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+\multicolumn{2}{|p{6cm}|}{TEMPUS LOGO}
+\multicolumn{3}{|p{6cm}|}{Form/Template}\\
+\hline
+Document No.: & ABC.1.23 & Revision: & 1/1/2023\\
+\hline
+Title: & LaTeX Demo & Phase: & Effective\\
+\hline
+\end{tabular}}
+\fancyfoot[C]{Confidential. For internal use only.}
+\fancyfoot[R]{Page \thepage\ of \pageref{LastPage}}
+\setlength{\headheight}{65pt}
+\addtolength{\topmargin}{-80pt}
+\renewcommand{\familydefault}{\sfdefault}
+\titlespacing*{\section}{0em}{2ex}{1em}
+\titlespacing*{\subsection}{2em}{1ex}{1em}
+%\titlespacing*{\subsubsection}{12em}{1ex}{1em}
+\begin{document}
+\thispagestyle{fancy}
+\pagestyle{fancy}
+\section{Purpose}
+[1-2 sentence summary of the goal of this document]
+\section{Scope}
+This work instruction applies to personnel that work in Tempus' clinical laboratories.
+
+[Additional Content Goes Here.  The idea is to demonstrate that each new cell will form a paragraph]
+
+\section{References}
+\begin{enumerate}
+\item{Reference One}
+\item{Reference Two}
+\item{Reference Three}
+\item{Reference Four}
+\item{Reference Five}
+\item{Reference Six}
+\end{enumerate}
+\section{Definitions}
+\begin{enumerate}
+\item{[define any terms that have a special meaning in the context of this document (beyond common understanding; there is no need to define units of measurement) and are used multiple times in this document]}
+\item{[if you are using a defined term from a regulation or standard, be careful not to deviate from the definition in the regulation/standard unless it is necessary to customize it to Tempus]}
+\item{[if you are using a defined term that is from multiple documents, it should generally have the same definition in all documents unless a specific exception makes sense]}
+\item{[do not include definitions for terms that are not used in this document]}
+\end{enumerate}
+\section{Responsibilities}
+\subsection{Management is responsible for:}
+\begin{enumerate}
+\item{Management Responsibility 1}
+\item{Management Responsibility 2}
+\item{Management Responsibility 2}
+\end{enumerate}
+\subsection{Staff are responsible for:}
+\begin{enumerate}
+\item{Staff Responsibility 1}
+\item{Staff Responsibility 2}
+\item{Staff Responsibility 3}
+\end{enumerate}
+
+\end{document}
